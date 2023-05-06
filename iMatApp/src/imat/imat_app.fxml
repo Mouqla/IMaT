@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" stylesheets="@imat_app.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imat.MainViewController">
    <children>
-      <Label layoutX="392.0" layoutY="126.0" text="Programmet hämtar och sparar data här" />
-      <Label fx:id="pathLabel" alignment="CENTER" layoutX="115.0" layoutY="190.0" prefHeight="17.0" prefWidth="771.0" styleClass="text-sample" text="Label" />
       <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="15.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="14.0">
          <image>
             <Image url="@resources/logo.png" />
          </image>
       </ImageView>
+      <TextField fx:id="searchBar" layoutX="189.0" layoutY="77.0" prefHeight="25.0" prefWidth="648.0" promptText="Sök i IMat" />
+      <ImageView fx:id="searchBarCloseImageView" fitHeight="29.0" fitWidth="25.0" layoutX="769.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="searchBarSearchImageView" fitHeight="29.0" fitWidth="25.0" layoutX="811.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="10.0" layoutY="165.0" prefHeight="29.0" prefWidth="144.0" text="Sortiment">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="menuButton1" layoutX="12.0" layoutY="198.0" mnemonicParsing="false" text="Kött, chark &amp; Fågel">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton2" layoutX="12.0" layoutY="228.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Frukt &amp; Grönt">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton3" layoutX="12.0" layoutY="258.0" mnemonicParsing="false" prefWidth="139.0" text="Mejeri, Ost &amp; Ägg">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton4" layoutX="12.0" layoutY="288.0" mnemonicParsing="false" prefWidth="139.0" text="Skafferi">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton5" layoutX="12.0" layoutY="318.0" mnemonicParsing="false" prefWidth="139.0" text="Bröd">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton6" layoutX="12.0" layoutY="348.0" mnemonicParsing="false" prefWidth="139.0" text="Fisk &amp; skaldjur">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <ImageView fx:id="closeButtonImageView" fitHeight="46.0" fitWidth="49.0" layoutX="947.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="minaSidorImageView" fitHeight="54.0" fitWidth="67.0" layoutX="845.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="kassImageView" fitHeight="54.0" fitWidth="67.0" layoutX="925.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
