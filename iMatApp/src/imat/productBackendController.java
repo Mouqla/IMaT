@@ -4,14 +4,16 @@ package imat;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.image.ImageView;
+import se.chalmers.cse.dat216.project.IMatDataHandler;
 import se.chalmers.cse.dat216.project.Product;
 
-import javax.swing.text.html.ImageView;
 import java.awt.*;
 import java.io.IOException;
 
 public class productBackendController extends AnchorPane {
     private MainViewController parentController;
+    private IMatDataHandler imatdatahandler;
     private Product product;
     @FXML
     private ImageView productImageView;
@@ -26,8 +28,8 @@ public class productBackendController extends AnchorPane {
     @FXML
     private Label productName;
 
-    public itemsBackendController(Product product, MainViewController mainViewController){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("items.fxml"));
+    public productBackendController(Product product, MainViewController mainViewController){
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("products.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 
@@ -40,9 +42,15 @@ public class productBackendController extends AnchorPane {
         this.parentController= mainViewController;
 
         try{
-            this.productImageView.setImage(parentController.getSquareImage(product.getImageName()));
-            this.productName.setText(product.setName());
-            this.productAntal.setText(product.setUnit());
+            this.productImageView.setImage(parentController.getSquareImage(imatdatahandler.getFXImage(this.product)));
+            this.productAddImageView.getImage();
+            this.productMinusImageView.getImage();
+            this.productName.setText(product.getName());
+            this.productAntal.setText(product.getUnit());
+            this.productPrice.setText(Double.toString(product.getPrice()));
+
+        }catch (IOException exception){
+            throw new RuntimeException();
         }
     }
 

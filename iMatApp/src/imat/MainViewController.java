@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
 import javafx.scene.image.WritableImage;
+import javafx.scene.layout.AnchorPane;
 import se.chalmers.cse.dat216.project.IMatDataHandler;
 
 public class MainViewController implements Initializable {
@@ -25,6 +26,8 @@ public class MainViewController implements Initializable {
     ImageView searchBarSearchImageView;
     @FXML
     ImageView closeButtonImageView;
+    @FXML
+    AnchorPane productAnchorPane;
 
 
 
@@ -76,7 +79,6 @@ public class MainViewController implements Initializable {
         }
 
         else{
-            //Width equals Height, return original image
             return image;
         }
         return new WritableImage(image.getPixelReader(), x, y, width, height);
