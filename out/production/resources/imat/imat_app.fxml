@@ -3,6 +3,10 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
+<<<<<<< Updated upstream
+=======
+<?import javafx.scene.control.ScrollPane?>
+>>>>>>> Stashed changes
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -24,6 +28,7 @@
             <Font size="16.0" />
          </font>
       </Label>
+<<<<<<< Updated upstream
       <MenuButton fx:id="menuButton1" layoutX="12.0" layoutY="198.0" mnemonicParsing="false" text="Kött, chark &amp; Fågel">
         <items>
           <MenuItem mnemonicParsing="false" text="Action 1" />
@@ -31,30 +36,55 @@
         </items>
       </MenuButton>
       <MenuButton fx:id="menuButton2" layoutX="12.0" layoutY="228.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Frukt &amp; Grönt">
+=======
+      <MenuButton fx:id="menuButton1" layoutX="12.0" layoutY="194.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Baljväxter">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Kakor" />
+          <MenuItem mnemonicParsing="false" text="grejer" />
+        </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton2" layoutX="12.0" layoutY="223.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="139.0" text="Bröd">
+>>>>>>> Stashed changes
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
+<<<<<<< Updated upstream
       <MenuButton fx:id="menuButton3" layoutX="12.0" layoutY="258.0" mnemonicParsing="false" prefWidth="139.0" text="Mejeri, Ost &amp; Ägg">
+=======
+      <MenuButton fx:id="menuButton3" layoutX="12.0" layoutY="252.0" mnemonicParsing="false" prefWidth="139.0" text="Bär">
+>>>>>>> Stashed changes
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
+<<<<<<< Updated upstream
       <MenuButton fx:id="menuButton4" layoutX="12.0" layoutY="288.0" mnemonicParsing="false" prefWidth="139.0" text="Skafferi">
+=======
+      <MenuButton fx:id="menuButton4" layoutX="12.0" layoutY="281.0" mnemonicParsing="false" prefWidth="139.0" text="Citrusfrukter">
+>>>>>>> Stashed changes
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
+<<<<<<< Updated upstream
       <MenuButton fx:id="menuButton5" layoutX="12.0" layoutY="318.0" mnemonicParsing="false" prefWidth="139.0" text="Bröd">
+=======
+      <MenuButton fx:id="menuButton5" layoutX="12.0" layoutY="310.0" mnemonicParsing="false" prefWidth="139.0" text="Drycker varma">
+>>>>>>> Stashed changes
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
          </items>
       </MenuButton>
+<<<<<<< Updated upstream
       <MenuButton fx:id="menuButton6" layoutX="12.0" layoutY="348.0" mnemonicParsing="false" prefWidth="139.0" text="Fisk &amp; skaldjur">
+=======
+      <MenuButton fx:id="menuButton6" layoutX="12.0" layoutY="339.0" mnemonicParsing="false" prefWidth="139.0" text="Drycker kalla">
+>>>>>>> Stashed changes
          <items>
             <MenuItem mnemonicParsing="false" text="Action 1" />
             <MenuItem mnemonicParsing="false" text="Action 2" />
@@ -63,5 +93,88 @@
       <ImageView fx:id="closeButtonImageView" fitHeight="46.0" fitWidth="49.0" layoutX="947.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="minaSidorImageView" fitHeight="54.0" fitWidth="67.0" layoutX="845.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="kassImageView" fitHeight="54.0" fitWidth="67.0" layoutX="925.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+      <MenuButton fx:id="menuButton61" layoutX="12.0" layoutY="368.0" mnemonicParsing="false" prefWidth="139.0" text="Exotiska frukter">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton62" layoutX="12.0" layoutY="397.0" mnemonicParsing="false" prefWidth="139.0" text="Fisk">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton63" layoutX="12.0" layoutY="426.0" mnemonicParsing="false" prefWidth="139.0" text="Grönsaksfrukter">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton64" layoutX="12.0" layoutY="455.0" mnemonicParsing="false" prefWidth="139.0" text="Kål">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton65" layoutX="12.0" layoutY="484.0" mnemonicParsing="false" prefWidth="139.0" text="Kött">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton66" layoutX="13.0" layoutY="513.0" mnemonicParsing="false" prefWidth="139.0" text="Mejeriprodukter">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton651" layoutX="12.0" layoutY="542.0" mnemonicParsing="false" prefWidth="139.0" text="Meloner">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton652" layoutX="12.0" layoutY="567.0" mnemonicParsing="false" prefWidth="139.0" text="Mjöl, salt, socker">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton653" layoutX="12.0" layoutY="592.0" mnemonicParsing="false" prefWidth="139.0" text="Nötter och frön">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton654" layoutX="13.0" layoutY="617.0" mnemonicParsing="false" prefWidth="139.0" text="Pasta">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton655" layoutX="12.0" layoutY="642.0" mnemonicParsing="false" prefWidth="139.0" text="Potatis, ris">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="menuButton6511" layoutX="12.0" layoutY="667.0" mnemonicParsing="false" prefWidth="139.0" text="Kött">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </MenuButton>
+=======
+      <AnchorPane fx:id="productsAnchorPane" layoutX="189.0" layoutY="171.0" prefHeight="505.0" prefWidth="780.0">
+         <children>
+            <ScrollPane prefHeight="505.0" prefWidth="780.0" />
+         </children>
+      </AnchorPane>
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
    </children>
 </AnchorPane>
