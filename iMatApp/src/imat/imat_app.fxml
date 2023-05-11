@@ -61,7 +61,10 @@
          </items>
       </MenuButton>
       <ImageView fx:id="closeButtonImageView" fitHeight="46.0" fitWidth="49.0" layoutX="947.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fx:id="minaSidorImageView" fitHeight="54.0" fitWidth="67.0" layoutX="845.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="minaSidorImageView" fitHeight="54.0" fitWidth="67.0" layoutX="845.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imat/images/avatar.png" />
+         </image></ImageView>
       <ImageView fx:id="kassImageView" fitHeight="54.0" fitWidth="67.0" layoutX="925.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
