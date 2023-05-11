@@ -4,9 +4,16 @@
       -fx-font-weight: bold;
   }
 
+.control-iMat{
+        -fx-font-size: 45px;
+        -fx-font.family: "Inter";
+        -fx-font-weight: medium;
+        -fx-text-fill: black;
+        -fx-background-fill:
+}
+
 
 .desktop{
 -fx-border-width: 1440px;
 }
 
-.
